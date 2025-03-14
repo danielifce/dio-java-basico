@@ -1,3 +1,4 @@
+package Apredizado.Daniel.variaveisMetodos;
 import javax.print.DocFlavor.STRING;
 
 public class MinhaClasse { // Sempre CamaelCase com inicial maiuscula
@@ -13,7 +14,7 @@ public class MinhaClasse { // Sempre CamaelCase com inicial maiuscula
     public static String juntarNome (String nome, String sobrenome){ // Métodos tem nome no infinitivo e devem comerça com letra minúscula em CamelCase.
         return nome.concat(" ").concat(sobrenome);
     }
-    
+
     public static void resultarBoletim (int nota){ // Métodos tem nome no infinitivo e devem comerça com letra minúscula em CamelCase.
         if (nota < 6)
             System.out.println("Reprovado");
