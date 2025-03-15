@@ -22,7 +22,11 @@ public class SmartTv {
     public void volumeDown() {
         volume--;
     }
-    
+
+    public void setChannel(int newChannel) {
+        channel = newChannel;
+    }
+
 
 
 }

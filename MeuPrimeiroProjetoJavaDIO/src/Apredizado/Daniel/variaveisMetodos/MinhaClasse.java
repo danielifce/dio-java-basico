@@ -9,7 +9,7 @@ public class MinhaClasse { // Sempre CamaelCase com inicial maiuscula
         long populacao = 1000000000L; // Sempre que for long tem que colocar o L no final
         double testea = cep;
         short testeb = (short)testea; // exemplo de casting
-        double valorPi = 3.14159265359; // Constante sempre em Upper Case. Se for final não pode ser alterado.
+        final double valorPi = 3.14159265359; // Constante sempre em Upper Case. Se for final não pode ser alterado.
         System.out.println(valorPi); //Retorna o valor de Pi
 
         boolean testeVariavel = true; // Sempre que for boolean tem que ser true ou false

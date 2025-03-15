@@ -4,8 +4,14 @@ public class User {
         SmartTv tv = new SmartTv();
         System.out.println("Power: "+tv.power);
         System.out.println("Channel: "+tv.channel);
-        System.out.println("Volume: "+tv.volume); 
+        System.out.println("Volume: "+tv.volume+"\n"); 
     
         tv.power();
-        System.out.println("Power: "+tv.power);}
+        tv.setChannel(22);
+        tv.volumeUp();
+        System.out.println("Power: "+tv.power);
+        System.out.println("Channel: "+tv.channel);
+        System.out.println("Volume: "+tv.volume); 
+    
+    }
 }
