@@ -1,4 +1,4 @@
-public class App {
+public class ConsultaSaldo {
     public static void main(String[] args) throws Exception {
         double saldo = 100;
         double valorSolicitado = 500.59;
