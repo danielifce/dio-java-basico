@@ -34,3 +34,4 @@ public class ContaBancaria {
 }
 
 //documentação: javadoc -enconding UTF-8 -docencoding ISO-8859-1 -d../docs src/*.java
+//& "C:\Program Files\Java\jdk1.8.0_202\bin\javadoc.exe" -encoding UTF-8 -docencoding ISO-8859-1 -d "C:\Users\danie\.vscode\RepositorioGit\dio-java-basico\MeuPrimeiroProjetoJavaDIO\docs" "C:\Users\danie\.vscode\RepositorioGit\dio-java-basico\MeuPrimeiroProjetoJavaDIO\src\Apredizado\Daniel\variaveisMetodos\*.java"
