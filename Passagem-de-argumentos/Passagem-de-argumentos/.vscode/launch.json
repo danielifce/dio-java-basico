@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+     
+        {
+            "type": "java",
+            "name": "Launch AboutMe",
+            "request": "launch",
+            "mainClass": "Apredizado.Daniel.variaveisMetodos.AboutMe",
+            "args": [
+                "Daniel",
+                "Leite",
+                "34",
+                "1.86"
+            ],
+            "projectName": "MeuPrimeiroProjetoJavaDIO"
+        }
+    ]
+}
