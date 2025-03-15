@@ -11,5 +11,9 @@ public class ResultadoEscolar {
         {
             System.out.println("Reprovado");
         }
+
+
+        String status = nota >= 7 ? "Aprovado" : "Reprovado";
+        System.out.println("Critério 2: "+status);
     }
 }
