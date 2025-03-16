@@ -15,5 +15,16 @@ public class ResultadoEscolar {
 
         String status = nota >= 7 ? "Aprovado" : nota>=5 && nota <7 ? "Recuperação" : "Reprovado";// Condicao ternaria.
         System.out.println("Critério 2: "+status);
+
+
+        switch (nota) {
+            case 10:
+                System.out.println("Parabéns");
+                break;
+        
+            default:
+                System.out.println("Continue estudando");
+                break;
+        }
     }
 }
