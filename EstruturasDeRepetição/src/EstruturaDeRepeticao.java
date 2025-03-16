@@ -1,4 +1,4 @@
-public class App {
+public class EstruturaDeRepeticao {
     public static void main(String[] args) throws Exception {
         String alunos[] = {"Ana", "Maria", "José", "Pedro", "João"};
         
