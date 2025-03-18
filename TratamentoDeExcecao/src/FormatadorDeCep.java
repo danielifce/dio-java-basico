@@ -1,13 +1,3 @@
-// Exceção personalizada
-// Criando uma exceção personalizada chamada CepInvalidoException, que herda da classe Exception.
-// Essa exceção será lançada quando o CEP informado não tiver exatamente 8 dígitos.
-class CepInvalidoException extends Exception {
-    // Construtor que recebe uma mensagem de erro
-    public CepInvalidoException(String message) {
-        // Passa a mensagem para a classe pai (Exception)
-        super(message);
-    }
-}
 
 public class FormatadorDeCep {
 
@@ -15,7 +5,7 @@ public class FormatadorDeCep {
         try {
             // Testando a formatação do CEP
             // A função 'formatarCep' é chamada com um CEP válido "12545865".
-            String cepFormatado = formatarCep("12545865");
+            String cepFormatado = formatarCep("15455865");
             // Imprime o CEP formatado no console
             System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
