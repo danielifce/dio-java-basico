@@ -5,7 +5,7 @@ public class FormatadorDeCep {
         try {
             // Testando a formatação do CEP
             // A função 'formatarCep' é chamada com um CEP válido "12545865".
-            String cepFormatado = formatarCep("15455865");
+            String cepFormatado = formatarCep("11");
             // Imprime o CEP formatado no console
             System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
@@ -13,6 +13,7 @@ public class FormatadorDeCep {
             // este bloco de código irá ser executado.
             // O método 'printStackTrace' imprime detalhes sobre a exceção no console.
             e.printStackTrace();
+            System.out.println("teste");
         }
     }
 
